@@ -1,0 +1,128 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3977,        120]
+NotebookOptionsPosition[      3366,        100]
+NotebookOutlinePosition[      3766,        116]
+CellTagsIndexPosition[      3723,        113]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["favicon", "Subsubsection",ExpressionUUID->"47df6b55-ab08-4112-8338-8b1e29d068f1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Block", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"col", "=", 
+     RowBox[{"<|", 
+      RowBox[{
+       RowBox[{"\"\<white\>\"", "->", "White"}], ",", 
+       RowBox[{"\"\<blue\>\"", "->", 
+        RowBox[{"RGBColor", "[", 
+         RowBox[{"0.0694591", ",", " ", "0.118349", ",", " ", "0.215"}], 
+         "]"}]}], ",", 
+       RowBox[{"\"\<yellow\>\"", "->", 
+        RowBox[{"RGBColor", "[", 
+         RowBox[{"0.934981", ",", " ", "0.736843", ",", " ", "0.0380407"}], 
+         "]"}]}]}], "|>"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"col", "[", "\"\<blue\>\"", "]"}], ",", 
+         RowBox[{"Rectangle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "1"}], ",", 
+             RowBox[{"-", "1"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"1", ",", "1"}], "}"}], ",", 
+           RowBox[{"RoundingRadius", "->", "0.4"}]}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"col", "[", "\"\<yellow\>\"", "]"}], ",", 
+         RowBox[{"Thickness", "[", "0.1", "]"}], ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Rotate", "[", 
+            RowBox[{
+             RowBox[{"Circle", "[", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"0.9", ",", "0.3"}], "}"}]}], "]"}], ",", 
+             RowBox[{"#", " ", 
+              RowBox[{"\[Pi]", "/", "4"}]}], ",", 
+             RowBox[{"{", 
+              RowBox[{"0", ",", "0"}], "}"}]}], "]"}], "&"}], "/@", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "3"}], "}"}]}]}], "}"}]}], "}"}], ",", 
+     RowBox[{"ImageSize", "->", "30"}]}], "]"}]}], "]"}]], "Input",
+ CellLabel->
+  "In[301]:=",ExpressionUUID->"0f2eb7db-b6bd-4261-951b-1e55fdc36d78"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.0694591, 0.118349, 0.215], RectangleBox[{-1, -1}, {1, 1},
+     RoundingRadius->0.4]}, 
+   {RGBColor[0.934981, 0.736843, 0.0380407], Thickness[0.1], 
+    GeometricTransformationBox[
+     CircleBox[{0, 0}, {0.9, 0.3}], {{{
+      0.7071067811865475, -0.7071067811865475}, {0.7071067811865475, 
+      0.7071067811865475}}, {0, 0}}], 
+    GeometricTransformationBox[
+     CircleBox[{0, 0}, {0.9, 0.3}], {{{-0.7071067811865475, \
+-0.7071067811865475}, {0.7071067811865475, -0.7071067811865475}}, {0, 0}}]}},
+  ImageSize->30]], "Output",
+ CellLabel->
+  "Out[301]=",ExpressionUUID->"3bd73ba7-1ef2-480f-956f-22acf270d2b1"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 816},
+WindowMargins->{{Automatic, 251}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->"CMU Article.nb",
+ExpressionUUID->"29f7caee-5618-4e17-85b4-d8516fdd3d5f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 87, 0, 37, "Subsubsection",ExpressionUUID->"47df6b55-ab08-4112-8338-8b1e29d068f1"],
+Cell[CellGroupData[{
+Cell[692, 26, 1986, 54, 127, "Input",ExpressionUUID->"0f2eb7db-b6bd-4261-951b-1e55fdc36d78"],
+Cell[2681, 82, 657, 14, 45, "Output",ExpressionUUID->"3bd73ba7-1ef2-480f-956f-22acf270d2b1"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
