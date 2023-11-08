@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Test Project
-parent: Projects
+parent: UG Projects
 nav_order: 1
 ---
 
